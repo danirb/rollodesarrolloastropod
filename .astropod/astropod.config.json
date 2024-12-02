@@ -1,9 +1,9 @@
 {
   "copyright": "",
-  "theme": "light",
+  "theme": "dark",
   "fundingText": "",
-  "author": "Author's name",
-  "name": "Podcast Name",
+  "author": "Daniel Redondo con XauenDevs",
+  "name": "Rollodesarrollo by XauenDevs",
   "banner": "/banner.webp",
   "pageSize": 15,
   "fundingUrl": "",
@@ -12,9 +12,9 @@
   "explicit": false,
   "cover": "/cover.jpg",
   "language": "en",
-  "link": "https://your-website-url.netlify.app",
-  "email": "your.email@gmail.com",
-  "description": "A short description of your podcast. We suggest creating a podcast description between 600-900 characters or 120-170 words in length.",
+  "link": "https://rollodesarrollo.com",
+  "email": "rollodesarrollo@gmail.com",
+  "description": "Rollodesarrollo by XauenDevs es un podcast sobre desarrollo de software, economía y inversión.",
   "category": [
     "Technology",
     "Business"
