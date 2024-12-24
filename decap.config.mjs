@@ -106,7 +106,7 @@ export default function dcapconfig() {
           },
           {
             name: "listenOn",
-            label: "Listen On",
+            label: "Escucha en",
             file: ".astropod/listenOn.config.json",
             fields: [
               { name: "acastPodcasts", widget: "string", label: "Acast Podcasts", required: false },

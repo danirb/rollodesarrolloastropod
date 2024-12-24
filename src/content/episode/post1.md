@@ -1,8 +1,8 @@
 ---
-title: Demo Episode
-audioUrl: https://www.youtube.com/watch?v=mExzr9zXUKs&ab_channel=RolloDesarrollo
+title: Episodio 1
+audioUrl: ./audio/1.mp4
 pubDate: Sep 10 2022
-duration: 00:32
+duration: 43:28
 size: 0.7
 cover: ""
 explicit: false
@@ -10,4 +10,4 @@ episode: 1
 season: 1
 episodeType: full
 ---
-This is an episode demo of Astropod. Here you can add the description of your episode.
+Ep. 1: Sergio y Mercedes, director técnico y directora de recursos humanos de Innovasur, nos cuentan desde como gestionar equipos grande de perfiles tan diferentes hasta contarnos como entrenar modelos de IA derrapando con el coche y grabando contenedores mientras la gente los mira raro...
