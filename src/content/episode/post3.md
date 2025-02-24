@@ -2,8 +2,8 @@
 title: "#3 | DAVID PADILLA | Hacker ético, Bug hunter y miembro fundador de Hackén"
 audioUrl: ./audio/3.mp3
 pubDate: Feb 24 2025
-duration: 41:35
-size: 0.7
+duration: 00:41:35
+size: 39,9
 cover: ""
 explicit: false
 episode: 3

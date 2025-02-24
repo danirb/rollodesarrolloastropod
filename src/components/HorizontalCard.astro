@@ -9,7 +9,7 @@ import PlayIcon from "./icons/playIcon.astro";
 import PauseIcon from "./icons/pauseIcon.astro";
 
 let cover_url = cover ? cover : astropodConfig.cover;
-const displayDate = dayjs(pubDate).format("ll");
+const displayDate = dayjs(pubDate).format("l");
 
 function formatTime(secs) {
   if (isNaN(secs) || secs < 0) {
