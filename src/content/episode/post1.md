@@ -3,7 +3,7 @@ title: "#1 | MERCEDES VILLEGAS Y SERGIO MONTES | Directora de RRHH y director de
 audioUrl: ./audio/1.mp4
 pubDate: Jan 15 2025
 duration: 00:43:28
-size: 0.7
+size: 42.2
 cover: ""
 explicit: false
 episode: 1

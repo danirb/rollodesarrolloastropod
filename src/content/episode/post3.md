@@ -3,7 +3,7 @@ title: "#3 | DAVID PADILLA | Hacker ético, Bug hunter y miembro fundador de Hac
 audioUrl: ./audio/3.mp3
 pubDate: Feb 24 2025
 duration: 00:41:35
-size: 39,9
+size: 39.9
 cover: ""
 explicit: false
 episode: 3
