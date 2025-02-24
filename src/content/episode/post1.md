@@ -1,7 +1,7 @@
 ---
 title: "#1 | MERCEDES VILLEGAS Y SERGIO MONTES | Directora de RRHH y director de desarrollo en Innovasur"
 audioUrl: ./audio/1.mp4
-pubDate: Sep 10 2022
+pubDate: Jan 15 2025
 duration: 43:28
 size: 0.7
 cover: ""

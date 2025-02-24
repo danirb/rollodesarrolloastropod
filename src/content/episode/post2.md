@@ -1,7 +1,7 @@
 ---
 title: "#2 | JOAQUÍN GARCÍA | CEO de Orbit360"
 audioUrl: ./audio/2.mp3
-pubDate: Sep 10 2022
+pubDate: Feb 3 2025
 duration: 29:32
 size: 0.7
 cover: ""

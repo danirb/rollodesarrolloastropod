@@ -1,7 +1,7 @@
 ---
 title: "#0 Episodio Piloto"
 audioUrl: https://www.youtube.com/watch?v=mExzr9zXUKs&ab_channel=RolloDesarrollo
-pubDate: Sep 10 2022
+pubDate: Feb 7 2024
 duration: 00:32
 size: 0.7
 cover: ""
