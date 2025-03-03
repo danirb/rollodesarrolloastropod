@@ -10,7 +10,7 @@ episode: 3
 season: 1
 episodeType: full
 ---
-Ep. 3 : entrevistamos a David Padilla, Hacker ético y miembro fundador de Hackén  @hackencongreso   Descubre más sobre su trayectoria como bug hunter y sus experiencias en el mundo de la ciberseguridad. ¡No te lo pierdas!
+Ep. 3 : entrevistamos a David Padilla, Hacker ético y miembro fundador de Hackén  @hackencongreso (Hack-én)[https://hacken.es/]  Descubre más sobre su trayectoria como bug hunter y sus experiencias en el mundo de la ciberseguridad. ¡No te lo pierdas!
 
 Enlaces de afiliados Amazon:
 

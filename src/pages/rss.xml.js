@@ -73,12 +73,6 @@ export async function get(context) {
     },
   }));
 
-  // podcast.rss.channel[0]["itunes:category"] = {
-  //   $: {
-  //     text: astropodConfig.category,
-  //   },
-  // };
-
   if (astropodConfig.fundingUrl) {
     const fundingUrl = isFullUrl(astropodConfig.fundingUrl)
       ? astropodConfig.fundingUrl
