@@ -1,7 +1,7 @@
 ---
 title: "#6 | CLARA DÍAZ | Programadora fullstack en Ofimática TSS"
 audioUrl: ./audio/6.mp3
-pubDate: Mar 31 2025
+pubDate: Abr 07 2025
 duration: 00:36:12
 size: 86.9
 cover: ""
