@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+    const episodios = await getCollection('episode');
+    return episodios.map((episodio) => ({
+        params: { slug: episodio.data.slug },
+        props: { episodio },
+    }));
+}
+
+const { episodio } = Astro.props;
+const { Content } = await episodio.render();
+---
+
+<article className="episodio-completo">
+    <h1>{episodio.data.title}</h1>
+    <div className="metadata">
+        <p>Episodio: {episodio.data.episode}</p>
+        <p>Duración: {episodio.data.duration}</p>
+        <p>Fecha: {episodio.data.pubDate?.toLocaleDateString()}</p>
+    </div>
+    
+    <div className="contenido">
+        <Content />
+    </div>
+</article>
+
+<style>
+    .episodio-completo {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    
+    .metadata {
+        margin: 1rem 0;
+        color: #666;
+    }
+    
+    .contenido {
+        margin-top: 2rem;
+        line-height: 1.6;
+    }
+</style> 

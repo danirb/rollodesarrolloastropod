@@ -1,7 +1,7 @@
 ---
 title: "#6 | CLARA DÍAZ | Programadora fullstack en Ofimática TSS"
 audioUrl: ./audio/6.mp3
-pubDate: Abr 07 2025
+pubDate: 2025-04-14
 duration: 00:36:12
 size: 86.9
 cover: ""
@@ -9,6 +9,7 @@ explicit: false
 episode: 6
 season: 1
 episodeType: full
+slug: "clara-diaz-programadora-fullstack"
 ---
 En este episodio #6 del #podcast RolloDesarrollo, entrevistamos a Clara Díaz
 programadora fullstack, nos cuenta su experiencia y su curiosa transición de medicina a programación, habla de  la importancia de las buenas prácticas. Comenta  sobre su trabajo remoto,  nos detalla su setup de trabajo y cómo la inteligencia artificial está cambiando el sector. Además, ofrece consejos valiosos para programadores junior y la necesidad que tenemos de no parar de aprender.

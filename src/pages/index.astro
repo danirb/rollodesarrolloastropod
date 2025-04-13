@@ -1,0 +1,70 @@
+import { getCollection } from 'astro:content';
+
+const episodios = await getCollection('episode');
+const episodiosOrdenados = episodios.sort((a, b) => b.data.episode - a.data.episode);
+
+<html lang="es">
+    <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Rollo Desarrollo - Podcast</title>
+    </head>
+    <body>
+        <main>
+            <h1>Rollo Desarrollo - Podcast</h1>
+            <div className="episodios">
+                {episodiosOrdenados.map((episodio) => (
+                    <article className="episodio">
+                        <h2>{episodio.data.title}</h2>
+                        <div className="metadata">
+                            <p>Episodio: {episodio.data.episode}</p>
+                            <p>Duración: {episodio.data.duration}</p>
+                            <p>Fecha: {episodio.data.pubDate?.toLocaleDateString()}</p>
+                        </div>
+                        <a href={`/episodios/${episodio.data.slug}`} className="leer-mas">
+                            Leer más
+                        </a>
+                    </article>
+                ))}
+            </div>
+        </main>
+    </body>
+</html>
+
+<style>
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .episodios {
+        display: grid;
+        gap: 2rem;
+    }
+
+    .episodio {
+        padding: 1.5rem;
+        border: 1px solid #eee;
+        border-radius: 8px;
+    }
+
+    .metadata {
+        margin: 1rem 0;
+        color: #666;
+    }
+
+    .leer-mas {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background-color: #0070f3;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 1rem;
+    }
+
+    .leer-mas:hover {
+        background-color: #0051a2;
+    }
+</style> 
